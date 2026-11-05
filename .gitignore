@@ -1,0 +1,25 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Données brutes
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Configuration locale
+.env
+
+# Système
+.DS_Store
+Thumbs.db
+
+
+
+
