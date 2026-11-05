@@ -1,9 +1,29 @@
 
+import sys
+from pathlib import Path
+
 import streamlit as st
 import plotly.express as px
 import pandas as pd
 
+# Ajouter la racine du projet au chemin de recherche Python
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+# Importation des modules du projet
 from src.data_processing import process_data
+from src.kpi import calculate_kpis
+
+from src.analytics import (
+    monthly_sales_analysis,
+    product_sales_analysis,
+    customer_sales_analysis,
+    country_sales_analysis
+)
+
+
 from src.kpi import calculate_kpis
 from src.analytics import (
     monthly_sales_analysis,
