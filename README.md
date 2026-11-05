@@ -15,6 +15,10 @@ Ce projet consiste à concevoir et développer un tableau de bord décisionnel d
 
 L'objectif est de faciliter l'interprétation des performances commerciales et d'appuyer la prise de décision à partir des données.
 
+### Démonstration en ligne
+
+[Accéder au tableau de bord](https://tableau-de-bord-ventes-lidao.streamlit.app/)
+
 ## 2. Objectifs du projet
 
 - Analyser l'évolution du chiffre d'affaires.
@@ -171,55 +175,15 @@ Le dossier `data/raw/` est créé localement pour accueillir le fichier Excel. I
 
 ### Prérequis
 
-- Python.
+- Python 3.10 ou supérieur.
 - Git.
-- Connexion Internet pour télécharger les dépendances et le jeu de données.
+- Une connexion Internet pour télécharger les données depuis UCI si le fichier local est absent.
 
-### Étape 1 — Cloner le dépôt
+### Cloner le dépôt
 
 ```bash
 git clone https://github.com/LidXo/tableau-de-bord-ventes.git
-```
-
-### Étape 2 — Accéder au projet
-
-```bash
 cd tableau-de-bord-ventes
-```
-
-### Étape 3 — Créer un environnement virtuel
-
-```bash
-python -m venv .venv
-```
-
-### Étape 4 — Activer l'environnement sous Windows
-
-```powershell
-.venv\Scripts\Activate.ps1
-```
-
-### Étape 5 — Installer les dépendances
-
-```bash
-pip install -r requirements.txt
-```
-
-### Étape 6 — Préparer les données
-
-Télécharger le fichier Online Retail depuis le dépôt officiel UCI et le placer dans :
-
-```text
-data/raw/Online Retail.xlsx
-```
-
-### Étape 7 — Lancer l'application
-
-```bash
-python -m streamlit run app/dashboard.py
-```
-
-L'application s'ouvre dans le navigateur.
 
 ## 10. Précautions méthodologiques
 
