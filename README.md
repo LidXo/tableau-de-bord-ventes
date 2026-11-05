@@ -184,6 +184,7 @@ Le dossier `data/raw/` est créé localement pour accueillir le fichier Excel. I
 ```bash
 git clone https://github.com/LidXo/tableau-de-bord-ventes.git
 cd tableau-de-bord-ventes
+```
 
 ## 10. Précautions méthodologiques
 
