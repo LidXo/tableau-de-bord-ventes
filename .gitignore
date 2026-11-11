@@ -1,0 +1,26 @@
+
+# Environnement virtuel
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Cache des tests
+.pytest_cache/
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Configuration locale
+.env
+
+# Fichiers Jupyter temporaires
+.ipynb_checkpoints/
+
+# Données brutes
+data/raw/
+
+
