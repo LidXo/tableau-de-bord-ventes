@@ -1,5 +1,11 @@
 # Tableau de bord décisionnel des ventes
 
+## Démo en ligne
+
+**[Consulter le tableau de bord interactif](https://tableau-de-bord-ventes-lidao.streamlit.app/)**
+
+Application accessible directement depuis un navigateur, sans installation préalable.
+
 ## Présentation
 
 Ce projet consiste à développer une application interactive de Business Intelligence permettant d'analyser les performances commerciales d'une entreprise à partir du jeu de données **Sample Superstore**.
@@ -86,7 +92,7 @@ tableau-de-bord-ventes/
 ### 1. Cloner le dépôt
 
 ```bash
-git clone URL_DU_DEPOT
+git clone https://github.com/LidXo/tableau-de-bord-ventes.git
 cd tableau-de-bord-ventes
 ```
 
@@ -142,3 +148,9 @@ Le fichier nettoyé utilisé par l'application est :
 
 Orientation professionnelle : Data Engineering.
 
+---
+
+**Liens du projet**
+
+- [Tableau de bord en ligne](https://tableau-de-bord-ventes-lidao.streamlit.app/)
+- [Dépôt GitHub](https://github.com/LidXo/tableau-de-bord-ventes)
